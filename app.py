@@ -14,7 +14,7 @@ region_df = pd.read_csv('noc_regions.csv')
 df = preprocessor.preprocess(df, region_df)
 
 st.sidebar.title('Olympics Analysis')
-st.sidebar.image('/home/tusharshukla/ML/7. EDA/olympic-analysis-project/olympic games design in_6517310.png')
+# st.sidebar.image('/home/tusharshukla/ML/7. EDA/olympic-analysis-project/olympic games design in_6517310.png')
 
 user_menu = st.sidebar.radio(
     'Select an Option',
